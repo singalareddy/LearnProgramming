@@ -1,0 +1,16 @@
+1. HelloWorld : write a program to print below string in console.
+Ex: O/P => Hello World!
+
+2. FamilyNames : write a program to print your family members in console.
+Ex: O/P
+MyName: M. Prasanth Reddy,
+Father: M. RosiReddy,
+Mother: M. Annapurna,
+Brother:------
+Note: every name should be seperated by comma(,) and print in new line.
+
+3. Cities : write a program to print 5 city names in different line using single print statement.
+
+4. HelloName : write a program to print below string in console.
+Ex: O/P => Hello "Prasanth!"
+Note: Name should print in double quotes.

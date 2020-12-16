@@ -1,0 +1,20 @@
+Practice all programs in the examples section before solving exercise programs.
+
+1. MyAddress : write a program to print your address in console.
+Ex: O/P =>
+Full Name,
+S/D/O XYZ,
+AAAAA village,
+BBBBBBBBB,
+PinCode-123456
+
+2. BigLetter : write a program to print your initial letter as below.
+Ex: O/P => My Initial is M
+MM       MM
+M M     M M
+M  M   M  M
+M   M M   M 
+M    M    M
+M         M
+
+3. FriendName : write a program to print your name and your friend name in different lines using two print statements (Don't use println statements).
