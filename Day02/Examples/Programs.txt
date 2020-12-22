@@ -1,0 +1,13 @@
+References:
+https://www.geeksforgeeks.org/java-identifiers/
+https://www.geeksforgeeks.org/data-types-in-java/
+https://www.geeksforgeeks.org/variables-in-java/
+
+Programs:
+
+1. PrintName: Create a variable called "name" of type "String" and assign it the value "John" and print it.
+2. MultipleInts: Declare ans assign value to 4 integer variables using comma seperated list.
+3. FullName: Declare a first_name, last_name variables and assign a values to it and print full name by combining them.
+4. IsLightOn: Declare a variable is_light_on and assign a value to it.
+5. DefaultInt: Declare a int variable and print it(To get default int value).
+

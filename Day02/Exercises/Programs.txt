@@ -1,0 +1,11 @@
+Practice all programs in the examples section before solving exercise programs.
+
+1. DefaultValue: write a program to print default values of all data types without assigning any value to it.
+
+2. DataTypeValues: write a program to declare and assign values to all datatypes and print them.
+
+3. OverFlowInt: write a program to declare a byte type and assign 123456 value and print it.
+
+4. PrintAge: wite a program to decalre a variable of required type for age and print it.
+
+5. StoreAddress: declare a string variable and assign your current address to it and print.
