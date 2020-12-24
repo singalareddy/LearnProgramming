@@ -1,0 +1,47 @@
+References:
+https://www.geeksforgeeks.org/operators-in-java/
+
+Programs:
+
+Arithmetic Operators:
+
+1. ArithmeticOP: create two operands(a and b) and assign 5 and 2 values. Perform all arithmetic operations and print the result.
+	(a+b, a-b, axb, a/b, a%b)
+
+2. TrianglePerimeter: Write a program to calculate the perimeter of a triangle having sides of length 12,8 and 9 units.
+
+3. SwapTwoValues: Write two programs to swap the values of the two variables.
+	1 - first program by using a third variable
+	2 - second program without using any third variable
+	(Ex:- take value of x is 3 and y is 8 then after swapping the value of x and y should become 8 and 3 respectively.)
+
+4. DigitsSum: Write a program to calculate the sum of the digits of a 3-digit number.
+	Ex: num : 525        Output : 12
+
+Unary Operators:
+
+UnaryOperators: Guess the output before writing program and then validate your answer.
+
+1. int i = 5;
+        i++;
+        System.out.println(i);    // "6"
+        ++i;                     
+        System.out.println(i);    // " "
+        System.out.println(++i);  // " "
+        System.out.println(i++);  // " "
+        System.out.println(i);    // " "
+
+2. int i = 5;
+        i--;
+        System.out.println(i);    // " "
+        --i;                     
+        System.out.println(i);    // " "
+        System.out.println(--i);  // " "
+        System.out.println(i--);  // " "
+        System.out.println(i);    // " "
+
+3. int a=1;
+         
+        a = a++ + ++a * --a - a--;
+         
+        System.out.println(a);
