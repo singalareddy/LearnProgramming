@@ -1,0 +1,72 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Assignment Operators:
+
+1.MixedCalculationWithAO: Write a program to add 10 to the number 456 and then divide it by 3. 
+			Now, the modulus of the quotient is taken with 5 and then multiply the resultant value by 5. Display the final result
+			(Note: solve this by using assignment operators).
+
+Guess the output before writing program and then validate your answer.
+
+2.  int z = 20;
+    int y = 21;
+    int x = 30;
+ 
+    // Using Assignment Operators
+    z += 5;
+    y %= 4;
+ 
+    // Using normal operation
+    x = x -7;
+ 
+    System.out.println("Value of z: " + z);
+    System.out.println("Value of y: " + y);
+    System.out.println("Value of x: " + x);
+
+Relational Operators:
+
+Guess the output before writing program and then validate your answer.
+
+1.      float f = 75.0f;
+        double d = 75.0;
+        int i = 75;
+        
+        System.out.println("f and d are equal? - " + (f==d));
+        System.out.println("f and i are equal? - " + (f==i));
+        System.out.println("d and i are equal? - " + (d==i));
+
+Logical Operators:
+Guess the output before writing program and then validate your answer.
+
+1.       int x = 5;
+         System.out.println(x > 3 && x < 10);
+         System.out.println(x > 3 || x < 10);
+         System.out.println(!(x > 3 && x < 10));
+
+2.       int a = 25, b = -11, c = 0;
+         System.out.println((a<c && b<c) && (a>c && b>c));
+         System.out.println((a>c && b<c) && (a<c && b>c));
+         
+         System.out.println((a<c && b<c) || (a>c && b>c));
+         System.out.println((a>c && b<c) || (a<c && b>c));
+         
+         System.out.println((a<c || b<c) && (a>c || b>c));
+         System.out.println((a>c || b<c) && (a<c || b>c));
+         
+         System.out.println((a<c || b<c) || (a>c || b>c));
+         System.out.println((a>c || b<c) || (a<c || b>c));
+
+Ternary Operator:
+
+1. MinOfTwoNumbers: write a program to find the minimum of two integers(n1 = 32, n2 = 23) using ternary operator.
+2. MinOfThreeNumbers: write a program to find the maximum of two integers(n1 = 5, n2 = 7, n3 = 3) using ternary operator.
+
+Guess the output before writing program and then validate your answer.
+3.       String name = "java";
+
+         int marks = name == "java"?10:20;
+         System.out.println("Marks=" + marks);
+         
+         marks = name == "Java"?10:20;
+         System.out.println("Marks=" + marks);
+

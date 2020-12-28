@@ -25,3 +25,12 @@ UnaryOperators: Guess the output before writing program and then validate your a
 	-> What are the values of i and n after the code is executed?
 	-> What are the final values of i and n if instead of using the postfix increment operator (i++), you use the prefix version (++i))?
 
+2. int ++a = 100 ; 
+	System.out.println( ++a);
+
+3. int i = 10;
+		i++;i++;++i;
+		int j = i++;
+		System.out.println(j);
+
+
