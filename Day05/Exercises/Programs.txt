@@ -1,0 +1,36 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Bitwise Operators:
+
+Guess the output before writing program and then validate your answer.
+
+1. 		 int a = 25;	/* 25 =  */
+         int b = 7;	    /* 7  =  */
+         int c = 0;
+
+         c = a & b;        /*  */
+         System.out.println("a & b = " + c );
+
+         c = a | b;        /*  */
+         System.out.println("a | b = " + c );
+
+         c = a ^ b;        /*  */
+         System.out.println("a ^ b = " + c );
+
+         c = ~a;           /* */
+         System.out.println("~a = " + c );
+
+         c = a << 2;       /*  */
+         System.out.println("a << 2 = " + c );
+
+         c = a >> 2;       /*  */
+         System.out.println("a >> 2  = " + c );
+
+         c = a >>> 2;      /*  */
+         System.out.println("a >>> 2 = " + c );
+
+Precedence and associativity:
+
+Guess the output before writing program and then validate your answer.
+
+1.       

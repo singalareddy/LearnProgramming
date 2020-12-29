@@ -1,0 +1,75 @@
+References:
+https://www.geeksforgeeks.org/operators-in-java/
+https://www.programiz.com/java-programming/bitwise-operators
+
+Programs:
+
+Bitwise Operators:
+
+Guess the output before writing program and then validate your answer.
+
+1. 		 int a = 60;	/* 60 = 0011 1100 */
+         int b = 13;	/* 13 = 0000 1101 */
+         int c = 0;
+
+         c = a & b;        /* 12 = 0000 1100 */
+         System.out.println("a & b = " + c );
+
+         c = a | b;        /* 61 = 0011 1101 */
+         System.out.println("a | b = " + c );
+
+         c = a ^ b;        /* 49 = 0011 0001 */
+         System.out.println("a ^ b = " + c );
+
+         c = ~a;           /*-61 = 1100 0011 */
+         System.out.println("~a = " + c );
+
+         c = a << 2;       /* 240 = 1111 0000 */
+         System.out.println("a << 2 = " + c );
+
+         c = a >> 2;       /* 15 = 1111 */
+         System.out.println("a >> 2  = " + c );
+
+         c = a >>> 2;      /* 15 = 0000 1111 */
+         System.out.println("a >>> 2 = " + c );
+
+Precedence and associativity:
+
+Guess the output before writing program and then validate your answer.
+
+1.       int myInt = 12 - 4 * 2;    //two possibilities - (12-4)x2 and 12-(4x2)
+         System.out.println(myInt);
+
+2.      int a = 10, b = 5, c = 1, result;
+    	result = a-++c-++b;
+    	
+    	System.out.println(result);
+
+3.       int x = 5;
+         int y = 10;
+         int z = ++x * y--;
+         System.out.println(z); // ""
+
+4.       System.out.println("1 + 2 = " + 1 + 2);
+         System.out.println("1 + 2 = " + (1 + 2));
+
+5.       System.out.println(1 + 2 + "abc");
+         System.out.println("abc" + 1 + 2);
+
+5.      int a = 10, b = 5, c = 3, result;
+        
+    	result = a*b/c;
+    	System.out.println(result); //" "
+    	
+    	result = b*a/c;
+    	System.out.println(result); //" "
+    	
+    	result = b/c*a;
+    	System.out.println(result); //" "
+    	
+    	result = b/a*c;
+    	System.out.println(result); //" "
+    	
+    	result = a/c*b;
+    	System.out.println(result); //" "
+
