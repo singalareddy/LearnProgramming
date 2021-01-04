@@ -1,0 +1,22 @@
+References:
+https://www.programiz.com/java-programming/scanner
+
+Programs:
+
+Scanner Class:
+
+1. InputName : Write a program to read input name from user and print it.
+
+2. ScannerInputs : Write a program to read below type of input values from user and print them.
+	a) reads an int value from the user
+	b) reads a float value form the user
+	c) reads a boolean value from the user
+	d) reads a line of text from the user
+	e) reads a word from the user
+	f) reads a byte value from the user
+	g) reads a double value from the user
+	h) reads a short value from the user
+	i) reads a long value from the user
+
+3. UsingScannerNext : Write a program to read first and last name from user using Next method in scanner class and print Full name(Firsat name + Last Name).
+
