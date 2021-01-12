@@ -1,0 +1,91 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Type Casting & Type conversion:
+
+1.      byte b = 7;
+ 
+        //type casting int to byte
+        b = (byte)(b * 2);
+        System.out.println(b);
+
+2.      int number = 10;  
+        float point = number;  
+        System.out.println(number);  
+        System.out.println(point);
+
+3.      int number;  
+        float fval = 32.33f;  
+        number = (int) fval;  
+        System.out.println(number);
+
+4.      int i1 = 10;  
+        float f1 = i1;  
+        System.out.println("int value: " + i1);  
+        System.out.println("Converted float value: " + f1);
+
+5.      System.out.println((int)1.87);  
+        System.out.println((double)1 / 2); 
+
+6.      int i = 200;  
+        double d = i;  
+        System.out.println(d); 
+
+7.      byte b1 = 10;  
+        double d1 = b1;  
+        System.out.println("byte value: " + b1);  
+        System.out.println("Converted double value: " + d1); 
+
+8.      float point=10.5f;  
+        int number=(int)point;  
+        System.out.println(point);  
+        System.out.println(point); 
+
+9.      int number=150;  
+        byte b=(byte)number;  
+        System.out.println(number);  
+        System.out.println(b); 
+
+10.     byte r=10;  
+        byte s=10;  
+        byte c=r+s;//Compile Time Error: because r+s=20 will be int  
+        System.out.println(c); 
+
+11.     byte r=10;  
+        byte s=10;  
+        byte c=(byte)r+s; 
+        System.out.println(c); 
+
+12.     double d1 = 10.5;  
+        byte b1 = (byte) d1;  
+        System.out.println("\ndouble value: " + d1);  
+        System.out.println("Converted byte value: " + b1);  
+
+13.     int i = 44;
+        float f = 98.42f;
+        double d = 103.67;
+        
+        f = i;
+        d = f;
+        i = (int) d;
+
+        System.out.println("i = " + i);
+        System.out.println("f = " + f);
+        System.out.println("d = " + d);
+
+14.     byte b;
+        int i = 81;
+        double d = 323.142;
+        float f = 72.38f;
+        char c = 'A';
+        
+        c = (char) i;
+        System.out.println("i = " + i + " c = " + c);
+        
+        i = (int) d; 
+        System.out.println("d = " + d + " i = " + i); 
+        
+        i = (int) f;
+        System.out.println("f = " + f + " i = " + i); 
+        
+        b = (byte) d;
+        System.out.println("d = " + d + " b = " + b);

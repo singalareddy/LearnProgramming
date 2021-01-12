@@ -1,0 +1,90 @@
+References:
+https://www.geeksforgeeks.org/difference-between-type-casting-and-type-conversion/
+
+Programs:
+
+Type Casting:
+
+1.    int x=25;
+      byte b = (byte)x;
+
+      System.out.println("Value of b is " + b);
+
+2.    double num = 10.99;
+      System.out.println("The double value: " + num);
+
+      // convert into int type
+      int data = (int)num;
+      System.out.println("The integer value: " + data);
+
+3.    char ch = 'A';//ASCII 65
+      int a = ch + 1;
+      ch = (char)a;
+      System.out.println(ch);
+
+4.    float a = 8.2/2;
+      System.out.println(a);
+
+5.    //Update 4th program with below
+      Add a suffix f or F 
+      float a = 8.2f/2;
+      (or)
+      explicit typecast
+      float a = (float)8.2/2;
+      System.out.println(a);
+
+6.    int a = 260;
+      byte b= (byte)a;
+      System.out.println(b);
+
+      /* Explanation: 
+         If a number is too big for a data type, 
+         it applies Modulo Division by the highest number possible of that data type. 
+         Byte range is -128 to +127. 260 > 127. So, modulo division is applied.
+         260%256 = 4
+      */
+
+7.    double d = 200.06;
+      long l = (long)d;
+      int i = (int)l;
+      System.out.println("Double Data type value "+d);
+      System.out.println("Long Data type value "+l);
+      System.out.println("Int Data type value "+i);
+
+Type conversion:
+
+1.      byte i = 50;  
+        // No casting needed for below conversion  
+        short j = i;  
+        int k = j;  
+        long l = k;  
+        float m = l;  
+        double n = m;  
+  
+        System.out.println("byte value : " + i);  
+        System.out.println("short value : " + j);  
+        System.out.println("int value : " + k);  
+        System.out.println("long value : " + l);  
+        System.out.println("float value : " + m);  
+        System.out.println("double value : " + n);
+
+2.      char c1 = 'D';
+        char c2 = 84;
+        c2++;
+        c1++;
+        System.out.println(c1 + " "  + c2);
+
+3.      byte Byte;  
+        Byte = 40;  
+        int sum = Byte + 2;  
+        System.out.println(sum); 
+
+4.      float val = 5.0/2;  
+        System.out.println(val); 
+
+5.      double val = 5.0/2;  
+        System.out.println(val); 
+
+
+
+
