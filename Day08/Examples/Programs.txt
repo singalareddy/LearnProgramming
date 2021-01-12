@@ -1,0 +1,108 @@
+Flow Control References:
+• Decision-making statements : if, if-else, if-else-if, nested-if, switch
+• Looping statements : for, while, do-while
+• Branching statements : break, continue, return
+
+https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/
+https://www.geeksforgeeks.org/loops-in-java
+
+Programs:
+
+if:
+
+1.	   int a=5;
+       if(a==5)
+			Console.WriteLine("Value of a is 5");
+
+2. PrintPositive : Write a Java program to get a number from the user and print your full name when number is positive.
+
+if-else:
+
+1.     int a = 10;
+	   if (a == 5)
+			Console.WriteLine("Value of a is 5");
+	   else
+			Console.WriteLine("Value of a is not 5");
+
+2. PrintPositiveOrNegative : Write a Java program to get a number from the user and print whether it is positive or negative.
+	Ex: I/P: 35
+	O/P : Number is positive
+
+if-else-if:
+
+1.	   int a = 50;
+	   if (a == 5)
+			Console.WriteLine("Value of a is 5");
+	   else if (a == 10)
+			Console.WriteLine("Value of a is 10");
+	   else
+			Console.WriteLine("Value of a is not 5 or 10");
+
+(Skip 2nd for now until math lib discussed)
+2. Quadratic : Write a Java program to solve quadratic equations (use if, else if and else).
+	Ex: I/P: a=1, b=5,c=1
+	O/P: The roots are -0.20871215252208009 and -4.7912878474779195
+
+nested-if:
+
+1.      int i = 10; 
+  
+        if (i == 10) 
+        { 
+            // First if statement 
+            if (i < 15) 
+                System.out.println("i is smaller than 15"); 
+  
+            // Nested - if statement 
+            // Will only be executed if statement above 
+            // it is true 
+            if (i < 12) 
+                System.out.println("i is smaller than 12 too"); 
+            else
+                System.out.println("i is greater than 15"); 
+        } 
+
+2. PrintGreatest : Take three numbers from the user and print the greatest number.
+
+Switch:
+
+1.      int i = 9; 
+        switch (i) 
+        { 
+        case 0: 
+            System.out.println("i is zero."); 
+            break; 
+        case 1: 
+            System.out.println("i is one."); 
+            break; 
+        case 2: 
+            System.out.println("i is two."); 
+            break; 
+        default: 
+            System.out.println("i is greater than 2."); 
+        } 
+
+2.      int i = 1; 
+        switch (i) 
+        { 
+        case 0: 
+            System.out.println("i is zero."); 
+        case 1: 
+            System.out.println("i is one."); 
+        case 2: 
+            System.out.println("i is two."); 
+        case 3: 
+            System.out.println("i is three."); 
+        default: 
+            System.out.println("i is greater than 2."); 
+        } 
+
+2. PrintWeekDay : Write a Java program to get a number from the user between 1 and 7 and displays the name of the weekday.
+
+
+
+
+
+
+
+

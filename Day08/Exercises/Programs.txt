@@ -1,0 +1,89 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Programs : 
+
+1.  int x = 20;
+    int y = 18;
+    if (x > y) {
+      System.out.println("x is greater than y");
+
+2.  int num=70;
+    if( num < 100 ){
+
+	System.out.println("number is less than 100");
+    }
+
+3.  int num=70;
+	if( num < 100 ){ 
+           System.out.println("number is less than 100"); 
+           if(num > 50){
+	      System.out.println("number is greater than 50");
+	   }
+	}
+
+4.  int num=120;
+    if( num < 50 ){
+	    System.out.println("num is less than 50");
+     }
+    else {
+	    System.out.println("num is greater than or equal 50");
+     }
+
+5. 	int num=1234;
+	if(num <100 && num>=1) {
+	  System.out.println("Its a two digit number");
+	}
+	else if(num <1000 && num>=100) {
+	  System.out.println("Its a three digit number");
+	}
+	else if(num <10000 && num>=1000) {
+	  System.out.println("Its a four digit number");
+	}
+	else if(num <100000 && num>=10000) {
+	  System.out.println("Its a five digit number");			
+	}
+	else {
+	  System.out.println("number is not between 1 & 99999");			
+	}
+
+6.  int time = 22;
+    if (time < 10) {
+      System.out.println("Good morning.");
+    } else if (time < 20) {
+      System.out.println("Good day.");
+    }  else {
+      System.out.println("Good evening.");
+    }
+
+7. MaxOfTwoNumbers: write a program to find the maximum of two integers(n1 = 25, n2 = 13).
+
+8. MinOfTwoNumbers: write a program to find the minimum of two integers(n1 = 32, n2 = 23).
+
+9. MinOfThreeNumbers: write a program to find the maximum of two integers(n1 = 5, n2 = 7, n3 = 3).
+
+10. StudentGrade: write a program to ask the user to enter the marks obtained in 5 subjects to calculate and display the grade of student.
+
+11. Calculator: write a program which is a menu-driven program based on simple calculation like addition, subtraction, multiplication and division according to user's choice:
+	Sample O/P:
+	1. Addition
+	2. Subtraction
+	3. Multiplication
+	4. Division
+	5. Exit
+	
+	Enter Your Choice : 1 
+	Enter Two Number : 12
+	13
+	Result = 25.0
+
+12. EvenOrOdd: write a program to ask the user to enter a number, to check and display whether the entered number is even or odd.
+
+13. LeapYear: writre a program to ask the user to enter a year, to check and display whether the entered year is leap year or not.
+		Note: A leap year is exactly divisible by 4 except for century years (years ending with 00). 
+			  The century year is a leap year only if it is perfectly divisible by 400.
+
+14. 
+
+
+
+
