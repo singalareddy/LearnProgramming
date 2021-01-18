@@ -1,0 +1,74 @@
+Flow Control References:
+• Decision-making statements : if, if-else, if-else-if, nested-if, switch
+• Looping statements : for, while, do-while
+• Branching statements : break, continue, return
+
+https://www.geeksforgeeks.org/decision-making-javaif-else-switch-break-continue-jump/
+https://www.geeksforgeeks.org/loops-in-java
+
+Looping Programs:
+
+for:
+
+1. PrintNumbersUsingFor : write a program to print first 10 natural numbers.
+2. TablesUsingFor : Write a program in Java to display the multiplication table of a given integer.
+
+while:
+	
+1. PrintNumbersUsingWhile : write a program to print first 10 natural numbers.
+2. TablesUsingWhile : Write a program in Java to display the multiplication table of a given integer.
+3. CountOfDigits : Write a Java program to get a positive number from the user and print count of digits.
+
+
+Do-while:
+
+1. ReadPositiveNumbers : Write a program to read and print positive numbers from the user until you get negative number.
+
+
+Branching statements Programs:
+
+Guess the output before executing the programs.
+
+break:
+
+1.      for(int i = 0; i < 5; i++) {
+            if(i == 3) {
+             System.out.println("bye: " + i);
+            }
+            System.out.println(i);
+        }
+        System.out.println("Hello World");
+
+2.      for(int i = 0; i < 5; i++) {
+            if(i == 3) {
+             System.out.println("bye: " + i);
+             break;
+            }
+            System.out.println(i);
+        }
+        System.out.println("Hello World");
+
+
+continue:
+
+1.      for(int i = 0; i < 5; i++) {
+            if(i == 3) {
+             System.out.println("bye: " + i);
+             continue;
+            }
+            System.out.println(i);
+        }
+        System.out.println("Hello World");
+        
+2. PrintOddNumbers : write a program to print odd numbers between 0 to 10.
+
+return:
+
+1.      for(int i = 0; i < 5; i++) {
+            if(i == 3) {
+             System.out.println("bye: " + i);
+             return;
+            }
+            System.out.println(i);
+        }
+        System.out.println("Hello World");

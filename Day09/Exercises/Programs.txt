@@ -1,0 +1,95 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Programs:
+
+1. ReverseNumbers : Write a program to print numbers from 10 to 1.
+
+2. SumOfNaturalNumbers : Write a program to calculate the sum of first 10 natural number.
+
+3. Factorial : Write a program to find the factorial value of any number entered through the keyboard. 
+
+4. PowerOf : Two numbers are entered through the keyboard. 
+			 Write a program to find the value of one number raised to the power of another. (
+			 Do not use Java built-in method)
+
+5. SumOfDigits : Write a program that prompts the user to input an integer and then outputs the number with the digits reversed. 
+				   For example, if the input is 12345, the output should be 15.
+
+6. ReverseDigits : Write a program that prompts the user to input an integer and then outputs the number with the digits reversed. 
+				   For example, if the input is 12345, the output should be 54321.
+
+7. UseDoWhile : Write a do-while loop that asks the user to enter two numbers. The numbers should be added and the sum displayed. 
+				 The loop should ask the user whether he or she wishes to perform the operation again. 
+				 If so, the loop should repeat; otherwise it should terminate. 
+
+8. PrimeOrNot : Write a program that prompts the user to input a positive integer. 
+				It should then output a message indicating whether the number is a prime number. 
+
+9. HCF : Write a program to calculate HCF of Two given number.
+
+10.SumOfEvenAndOddNumbers : Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+							Stop reading input from user based on user choice (y/n) and use do-while.
+
+11. CountOfPositiveAndNegative : Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered. 
+
+12. FindLargeAndSmallNumber : Write a program to enter the numbers till the user wants and at the end the program should display the largest and smallest numbers entered.
+
+13. AmstrongNumbers : Write a program to print out all Armstrong numbers between 1 and 500. 
+					  If sum of cubes of each digit of the number is equal to the number itself, then the number is called an Armstrong number.
+					  For example, 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
+
+16. FibonacciSeries : Write a program to print Fibonacci series of n terms where n is input by user :
+					  0 1 1 2 3 5 8 13 24 ..... 
+
+17. Pattern# : Write a program to print following :
+
+    i)
+    
+    **********
+    **********
+    **********
+    **********
+    
+    ii)
+    
+    *
+    **
+    ***
+    ****
+    *****
+    
+    iii)
+    
+        *
+       **
+      ***
+     ****
+    *****
+    
+     
+    
+    iv)
+    
+        *
+       ***
+      *****
+     *******
+    *********
+    
+    v)
+    
+        1
+       222
+      33333
+     4444444
+    555555555
+    
+    vi)
+    
+        1
+       212
+      32123
+     4321234
+    543212345
+
+
