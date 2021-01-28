@@ -1,0 +1,5 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Arrays 1-D:
+
+1.      

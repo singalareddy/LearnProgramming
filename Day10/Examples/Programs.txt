@@ -1,0 +1,40 @@
+References:
+
+
+Programs:
+
+Arrays 1-D:
+
+Guess the output before executing programs
+
+1.		int[] marks = {35,65,95}; 
+		System.out.print(marks.length + "," + marks[1]);
+
+2.		int[] balls = {};
+		System.out.print(balls.length);
+
+3.		String[] colors = {"RED";"YELLOW";"WHITE"};
+		System.out.print(colors[2]);
+
+4.		String[] computer = {"RAM","HDD","MOUSE"};
+		String[] parts = {computer[0],computer[2]};
+		System.out.print(parts[1]);
+
+5.		int ages[3] = {25, 27, 30};
+		System.out.println(ages[1]);
+
+6.		String[] ary = {"KITE", "AIR"};
+		String str = "PLANE";
+		ary[1] = str;
+		str = "FLY";
+		System.out.println(ary[1]);
+
+7. SumOfTenIntegers: Write a program to initialize 10 integer values from 1 to 10 and print sum of all integers.
+
+8. MaxAndMin: Write a program to find the maximum and minimum value of an array. {25, 14, 23, 15, 36, 56, 77, 18, 29, 49}
+
+9. ReverseArray: Take 5 integer inputs from user and store them in an array. Now, copy all the elements in an another array but in reverse order.
+
+10. FindInArray: Take 5 integer inputs from user and store them in an array. Again ask user to give a number. 
+				 Now, tell user whether that number is present in array or not.
+
