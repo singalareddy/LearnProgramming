@@ -2,4 +2,49 @@ Practice all programs in the examples section before solving exercise programs.
 
 Arrays 1-D:
 
-1.      
+1. AvgOfTenIntegers: Write a program to initialize 10 integer values from 11 to 20 and print Average of all integers.
+
+2. FindElementIndex:  Take 10 integer inputs from user and store them in an array. Again ask user to give a number. 
+				 Now, print index of that number when is present in array otherwise -1.
+					  Ex: arr = {67,23,43,24,56,76,54,25,87,95}
+						I/P: value = 25   //Test Case 1
+						O/P: 25 Index is 7
+						I/P: value = 13  //Test Case 2
+						O/P: 13 Index is -1
+
+3. DuplicateValues: Take N integer inputs from user and store them in an array. Print the duplicate values in array.
+
+4. CommonElements: Read 2 integer arrays from user and find and print the common elements.
+
+5. SplitArray: Take an array of 10 elements. Split it into middle and store the elements in two dfferent arrays.
+				Ex: INITIAL array :
+				58	24	13	15	63	9	8	81	1	78
+				
+				After spliting :
+				58	24	13	15	63
+				9	8	81	1	78
+
+6. SecondLargest: Take N integer inputs from user and store them in an array. Print the second largest element from an array.
+
+7. SecondSmallest: Take N integer inputs from user and store them in an array. Print the second smallest element from an array.
+
+8. PrintOddPosition: Take N integers from user and print the elements of an array present on odd position.
+
+9. CompareIntArrays: Take 2 integer arrays from user and print if both arrays are same or not.
+
+10. CompareBoolArrays: Take 2 boolean arrays from user and print if both arrays are same or not.
+
+11. CompareFloatArrays: Take 2 float arrays from user and print if both arrays are same or not.
+
+12. PrintSubArray: Read an integer array from user and start and end index values. Print the sub arrays using start and end index values.
+
+13. PairsSum: Take N integers and sum value from user and find all pairs of an integer array whose sum is equal to a given number.
+
+14.
+
+
+
+
+
+
+
