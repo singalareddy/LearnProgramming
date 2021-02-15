@@ -1,0 +1,68 @@
+Methods References:
+https://www.geeksforgeeks.org/methods-in-java/
+
+
+
+Programs:
+
+Guess the O/P before executing the program
+
+1.  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+
+2.   static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+    myMethod();
+    myMethod();
+  }
+
+3. public static void main(String[] args)
+    {
+        int a = 5;
+        System.out.println(cube(a));
+    }
+    static int cube(int theNum)
+    {
+        return theNum * theNum * theNum;
+    }
+
+4.  public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        int c = sum(a, b);
+        System.out.println("c = " + c);
+    }
+    
+    public static int sum(int a, int b)
+    {
+        System.out.println("a = " + a + " b = " + b);
+        return a + b;
+    }
+
+5.  public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        System.out.println("sum = " + sum(a,b));
+    }
+    
+    public static int sum(int a, int b)
+    {
+        return a + b;
+    }
+
+6. SmallestNumber: Write a Java method to find the smallest number among three numbers.
+
+7. SimpleCalci: Write a java program to implement simple calculator which can perform Add, Mul, Sub and Div based on user choice.
+    Note: Implement methods for each operation.
+

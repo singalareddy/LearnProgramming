@@ -1,0 +1,22 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Methods:
+
+Programs:
+
+1. ProductOfTwo: Write a java method to compute the product of two numbers given by user.
+
+2. Average: Write a Java method to compute the average of three numbers given by user.
+
+3. VowelsCount: Write a java method to get string from main method and count all vowels in a string and then print it on console.
+
+4. SumOfDigits: Write a java method to compute the sum of the digits in an integer and return sum to main method and then print it on console.
+
+5. SwapTwoNumbers: Write a java method to swap two number and print it on console.
+
+6. SquareRoot: Write a java method to calculate square root of a given number(Use Math inbuilt functions).
+
+7. SquareOfNumbers: Write a java method to calculate the square of an integer, calculate squares for numbers from 11 to 20. 
+
+8. SimpleCalci: Write a java program to implement simple calculator which can perform Add, Mul, Sub and Div based on user choice.
+    Note: Implement methods for each operation.
