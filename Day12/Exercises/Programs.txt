@@ -1,0 +1,6 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Strings:
+
+Programs:
+
