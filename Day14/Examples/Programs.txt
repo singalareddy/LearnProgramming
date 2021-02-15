@@ -1,0 +1,101 @@
+﻿CLasses & Objects References:
+https://www.geeksforgeeks.org/classes-objects-java/
+
+Programs:
+
+Guess the O/P before executing the programs.
+
+1. public class Main {​​​​​​​
+      int x;
+      String name;
+
+      public static void main(String[] args) {​​​​​​​
+        Main myObj = new Main();
+        System.out.println(myObj.x);
+        System.out.println(myObj.name);
+      }​​​​​​​
+    }​​​​​​​
+
+2. public class Main {
+      int x;
+      String name;
+
+    public static void main(String[] args) {
+        Main myObj1 = new Main();  // Object 1
+        myObj1.x = 5;
+        myObj1.name = "Manasa";
+        System.out.println(myObj1.x);
+        System.out.println(myObj1.name);
+      }
+    }
+3. public class Main {
+      int x = 5;
+      String name="Manasa";
+
+    public static void main(String[] args) {
+        Main myObj1 = new Main();  // Object 1
+        System.out.println(myObj1.x);
+        System.out.println(myObj1.name);
+      }
+    }
+
+4. public class Main {
+      int x = 5;
+
+    public static void main(String[] args) {
+        Main myObj1 = new Main();  // Object 1
+        Main myObj2 = new Main();  // Object 2
+        System.out.println(myObj1.x);
+        myObj1.x = 25;
+        System.out.println(myObj1.x);
+        System.out.println(myObj2.x);
+      }
+    }
+
+5. class Lamp {
+      boolean isOn;
+
+      void turnOn() {
+        isOn = true;
+        System.out.println("Light on? " + isOn);
+      }
+
+      void turnOff() {
+        isOn = false;
+        System.out.println("Light on? " + isOn);
+      }
+    }
+
+    class Main {
+      public static void main(String[] args) {
+
+        Lamp led = new Lamp();
+        Lamp halogen = new Lamp();
+
+        led.turnOn();
+
+        halogen.turnOff();
+      }
+    }
+
+6. public class Main{
+      int x;
+
+     public static void main(String[] args) {
+        Main myObj1 = new Main();  // Object 1
+        Main myObj2 = new Main();  // Object 2
+        myObj1.x = 25;
+        myObj2 = myObj1;
+        System.out.println(myObj1.x);
+        System.out.println(myObj2.x);
+      }    
+   }
+
+7. Student: Create a class named 'Student' with String variable 'name' and integer variable 'roll_no'. 
+    Assign the value of roll_no as '2' and that of name as "John" by creating an object of the class Student.
+
+8. Triangle, TriangleOps: Write a program to print the area and perimeter of a triangle having sides of 3, 4 and 5 units 
+    by creating a class named 'Triangle' to compute getArea and getPerimeter, and another class "TriangleOps" to call methods in Triangle class.
+
+9. EmployeeClass: Create a class named "Employee" with name and id as fields and assignFields method to initialize object.
+        create two objects in the same class main method initialize one object using referense and other using assignFields method.

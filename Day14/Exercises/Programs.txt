@@ -1,0 +1,26 @@
+Practice all programs in the examples section before solving exercise programs.
+
+Classes & Objects:
+
+Programs:
+
+1. RectangleOps: Write a program to print the area of a rectangle by creating a class named 'Area' having two methods. 
+		First method named as 'setDim' takes length and breadth of rectangle as parameters and 
+		the second method named as 'getArea' returns the area of the rectangle. 
+		Length and breadth of rectangle are entered through keyboard.
+
+2. Average: Print the average of three numbers entered by user by creating a class named 'Average' having a method to calculate and print the average.
+		Note: Three numbers should be fields of average class.
+
+3. EmployeeInformation: Write a program that would print the information (name, year of joining, salary, address) of three employees by creating a class named 'Employee'. The output should be as follows:
+						Name        Year of joining        Address
+						-----		---------------		  --------
+						Robert            1994                64C- WallsStreat
+						Sam                2000                68D- WallsStreat
+						John                1999                26B- WallsStreat
+
+4. Create Four classes Addition, Substraction, Division, and Multiplication and then implement Three methods in each class
+			(Ex: AddTwoNumber, AddThreeNumbers,AddFourNumbers). Create a main method in another class then read user input of choice to 
+			peroform 4x3 operations like 1. AddTwoNumbers, 2. AddThreeNumbers etc. Based on user choice read input values from user and 
+			then create corresponding object and then call method with respective arguments.
+
