@@ -1,4 +1,4 @@
-package Day02.bharath;
+package Day02.Examples.bharath;
 
 public class NAMEASSIGN {
     public static void main(String[] args)

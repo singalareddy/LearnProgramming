@@ -1,4 +1,5 @@
-public class MaxOfTwoNumbers{
+public class MaxOfTwoNumbers
+{
 
      public static void main(String []args){
          int n1 = 25, n2 = 10, max; 
