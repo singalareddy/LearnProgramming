@@ -13,6 +13,7 @@ public class Calculatorwithswitch {
 
         System.out.println("enter second value=");
         int b = sc.nextInt();
+        
 
         switch(choice){
             case 1: int add=a+b;
@@ -21,10 +22,10 @@ public class Calculatorwithswitch {
             case 2: int sub=a-b;
             System.out.println("Substraction of two numers="+sub); break;
 
-            case 3: int mul=a-b;
+            case 3: int mul=a*b;
             System.out.println("multiplication of two numers="+mul); break;
 
-            case 4: int div=a-b;
+            case 4: int div=a/b;
             System.out.println("Division of two numers="+div); break;
             
             default : System.out.println("choice is out of range");
