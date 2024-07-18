@@ -14,13 +14,13 @@ public class Countofpositiveandnegativenum{
                 int value=sc.nextInt();
 
             if (value>0){
-                positivenum ++;
+                positivenum +=1;
             }
             else if(value<0){
-                negativenum += 1;
+                negativenum ++;
             }
             else
-                zeronum +=1;
+                zeronum ++;
             }
             System.out.println(positivenum);
             System.out.println(negativenum);
