@@ -28,7 +28,7 @@ public class sorting {
         System.out.println("Second least value= ");
         System.out.println(a[1]);
         System.out.println("Second highest value= ");
-        System.out.println(a[n-1]);
+        System.out.println(a[n-2]);
         }
     }
 
