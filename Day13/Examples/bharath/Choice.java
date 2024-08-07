@@ -43,7 +43,7 @@ public class Choice {
             }
             System.out.println();
         }
-        if(count==5){
+        if(choice==5){
             return;
         }
     }
